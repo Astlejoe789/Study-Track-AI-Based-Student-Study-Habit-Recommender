@@ -162,7 +162,7 @@ jupyter notebook
 
 ---
 
-## 🗣️ Viva / Presentation Explanation
+## 🗣️ System Overview
 
 > “Study-Track is an AI-based student study habit recommender system that analyzes student data, groups students using clustering, and generates personalized study plans to improve learning efficiency and academic performance.”
 
@@ -179,9 +179,11 @@ jupyter notebook
 ---
 
 ## 👥 Team Members
-
-* **Astle Joe A S** – Project Lead
-* *(Add other members if applicable)*
+- **[Astle Joe A S](https://github.com/astlejoe789)** 
+- **[Megharaj Koli](https://github.com/MegharajKoli)** 
+- **[Ravilla Monika](https://github.com/RavillaMonika)** 
+- **[Akash A](https://github.com/Akash-2006-07-03)**
+- **[Venusri](https://github.com/Venu504)** 
 
 ---
 
