@@ -1,12 +1,12 @@
-# 📘 Study-Track – AI-Based Student Study Habit Recommender
+#  Study-Track – AI-Based Student Study Habit Recommender
 
-## 🎯 Project Overview
+##  Project Overview
 
 **Study-Track** is an AI-based system designed to analyze students' study habits and generate **personalized study recommendations**. The project uses data analysis and machine learning techniques to help students improve productivity, consistency, and academic performance.
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Students often struggle with:
 
@@ -18,7 +18,7 @@ Traditional one-size-fits-all study plans are inefficient. This project addresse
 
 ---
 
-## ✅ Solution Approach
+##  Solution Approach
 
 The system:
 
@@ -30,7 +30,7 @@ The system:
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```
 Student Data (CSV / Input)
@@ -48,7 +48,7 @@ Personalized Study Plan
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Study-Track-AI-Based-Student-Study-Habit-Recommender/
@@ -80,7 +80,7 @@ Study-Track-AI-Based-Student-Study-Habit-Recommender/
 
 ---
 
-## 📓 Notebook Description
+##  Notebook Description
 
 ### 🔹 Clustering.ipynb
 
@@ -100,7 +100,7 @@ Study-Track-AI-Based-Student-Study-Habit-Recommender/
 * Integrates data, model, and recommendation logic
 * Produces final personalized study plan
 
-👉 **This is the notebook to run for demo, review, and viva**
+ **This is the notebook to run for demo, review, and viva**
 
 ---
 
@@ -115,9 +115,9 @@ Study-Track-AI-Based-Student-Study-Habit-Recommender/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
-### ✅ Option 1: Run on Google Colab (Recommended)
+###  Option 1: Run on Google Colab (Recommended)
 
 1. Open [https://colab.research.google.com](https://colab.research.google.com)
 2. Upload `Study_Track.ipynb`
@@ -126,7 +126,7 @@ Study-Track-AI-Based-Student-Study-Habit-Recommender/
 
 ---
 
-### ✅ Option 2: Run Locally
+###  Option 2: Run Locally
 
 #### Step 1: Install Dependencies
 
@@ -147,7 +147,7 @@ jupyter notebook
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 * Student study habit classification
 * Personalized subject-wise study plan
@@ -156,13 +156,13 @@ jupyter notebook
 
 ---
 
-## 🗣️ System Overview
+##  System Overview
 
 > “Study-Track is an AI-based student study habit recommender system that analyzes student data, groups students using clustering, and generates personalized study plans to improve learning efficiency and academic performance.”
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * Google Calendar Integration
 * Automatic Study Timetable Creation
@@ -174,7 +174,7 @@ jupyter notebook
 
 ---
 
-## 👥 Team Members
+##  Team Members
 - **[Astle Joe A S](https://github.com/astlejoe789)** 
 - **[Megharaj Koli](https://github.com/MegharajKoli)** 
 - **[Ravilla Monika](https://github.com/RavillaMonika)** 
