@@ -130,8 +130,8 @@ The project is intended solely for academic and learning purposes.
 
 ## 👥 Team Members
 
-- **Astle Joe A S** (@astlejoe789)
-- **Megharaj Koli** (@MegharajKoli)
-- **Ravilla Monika** (@RavillaMonika)
-- **Akash A** (@)
-- **Venusri** (@)
+- **[Astle Joe A S](https://github.com/astlejoe789)** (@astlejoe789)
+- **[Megharaj Koli](https://github.com/MegharajKoli)** (@MegharajKoli)
+- **[Ravilla Monika](https://github.com/RavillaMonika)** (@RavillaMonika)
+- **Akash A**
+- **Venusri**
