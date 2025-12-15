@@ -1,0 +1,28 @@
+# Core Python libraries
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Jupyter / Colab support
+jupyter
+ipykernel
+
+
+# Model persistence
+joblib
+
+# Database
+sqlite3-binary
+
+# Web / UI (used in Study_Track5 / pipeline notebook)
+flask
+streamlit
+
+# Utility
+python-dateutil
