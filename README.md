@@ -4,12 +4,6 @@
 
 **Study-Track** is an AI-based system designed to analyze students' study habits and generate **personalized study recommendations**. The project uses data analysis and machine learning techniques to help students improve productivity, consistency, and academic performance.
 
-This project is suitable for:
-
-* Academic mini / PBL projects
-* AI / ML demonstrations
-* Study habit analysis systems
-
 ---
 
 ## 🧠 Problem Statement
@@ -170,6 +164,8 @@ jupyter notebook
 
 ## 🚀 Future Enhancements
 
+* Google Calendar Integration
+* Automatic Study Timetable Creation
 * Web application using **Streamlit**
 * Real-time student input form
 * Deep learning-based recommendation model
