@@ -100,7 +100,7 @@ Study-Track-AI-Based-Student-Study-Habit-Recommender/
 * Integrates data, model, and recommendation logic
 * Produces final personalized study plan
 
- **This is the notebook to run for demo, review, and viva**
+
 
 ---
 
