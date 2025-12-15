@@ -1,1 +1,1 @@
-# Astlejoe789-Astlejoe789-Study-Track-AI-Based-Student-Study-Habit-Recommender
+# Study-Track-AI-Based-Student-Study-Habit-Recommender
