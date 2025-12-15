@@ -1,138 +1,194 @@
-# Study Track – AI Based Student Study Habit Recommender System
+# 📘 Study-Track – AI-Based Student Study Habit Recommender
 
-## Overview
-Study Track is an AI-powered student analytics and recommendation system designed to analyze study behavior and learning patterns to provide personalized study habit recommendations.  
-The system leverages machine learning techniques to cluster students based on their academic activity and performance data, enabling data-driven guidance to improve learning efficiency and consistency.
+## 🎯 Project Overview
 
-This project was developed as a **team project under the Infosys Internship Program**, following professional software development and repository management practices.
+**Study-Track** is an AI-based system designed to analyze students' study habits and generate **personalized study recommendations**. The project uses data analysis and machine learning techniques to help students improve productivity, consistency, and academic performance.
 
----
+This project is suitable for:
 
-## Problem Statement
-Students often struggle to maintain effective and consistent study habits due to a lack of personalized guidance. Traditional learning systems do not adapt to individual learning behavior, resulting in reduced academic performance and engagement.
-
----
-
-## Solution
-Study Track addresses this problem by:
-- Collecting and analyzing student study logs and performance data
-- Applying machine learning–based clustering to identify learning behavior patterns
-- Generating personalized study habit recommendations
-- Providing visual insights and a simple interaction layer for better understanding
+* Academic mini / PBL projects
+* AI / ML demonstrations
+* Study habit analysis systems
 
 ---
 
-## Key Features
-- Behavioral analysis of student study patterns
-- KMeans-based clustering for learner segmentation
-- Personalized study habit recommendations
-- Data visualization for performance insights
-- Persistent machine learning models for reuse
-- Clean, modular, and professional project structure
+## 🧠 Problem Statement
+
+Students often struggle with:
+
+* Poor time management
+* Ineffective study routines
+* Lack of personalized guidance
+
+Traditional one-size-fits-all study plans are inefficient. This project addresses the problem by using **AI-driven analysis** to recommend customized study strategies based on individual student data.
 
 ---
 
-## Technology Stack
-- **Programming Language:** Python  
-- **Machine Learning:** Scikit-learn  
-- **Data Processing:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn  
-- **Notebook Environment:** Jupyter / Google Colab  
-- **Database:** SQLite  
-- **Interface Layer:** Flask / Streamlit  
-- **Version Control:** Git & GitHub  
+## ✅ Solution Approach
+
+The system:
+
+1. Collects student study-related data
+2. Preprocesses and normalizes the data
+3. Groups students using **clustering techniques**
+4. Applies AI-based logic to generate **personalized study plans**
+5. Outputs clear, actionable study recommendations
 
 ---
 
+## 🏗️ Project Architecture
 
----
-
-## Installation and Setup
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
 ```
-## Step 2: Install Dependencies
-```pip install -r requirements.txt```
+Student Data (CSV / Input)
+        ↓
+Data Preprocessing
+        ↓
+Clustering Model (ML)
+        ↓
+Student Group Identification
+        ↓
+Recommendation Engine
+        ↓
+Personalized Study Plan
+```
 
-# Step 3: Execute the Project
+---
 
-Open the main pipeline notebook:
+## 📁 Project Structure
 
-```notebooks/study_track_pipeline.ipynb```
+```
+Study-Track-AI-Based-Student-Study-Habit-Recommender/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   │   └── student.csv
+│   └── processed/
+│       ├── study_log_export.csv
+│       └── cluster_output.csv
+│
+├── database/
+│   └── students.db
+│
+├── models/
+│   ├── student_cluster_model.pkl
+│   └── student_scaler.pkl
+│
+└── notebooks/
+    ├── Clustering.ipynb
+    ├── Recommendation_Engine.ipynb
+    └── Study_Track.ipynb   ← Main execution notebook
+```
 
+---
 
-Run all cells sequentially to perform data analysis, clustering, and recommendation generation.
+## 📓 Notebook Description
 
-.
+### 🔹 Clustering.ipynb
 
-## 📊 Dataset
+* Trains a clustering model on student data
+* Groups students based on study habits
+* Saves trained model and scaler
 
-The project utilizes multiple datasets representing student study behavior and academic activity. These datasets are used to analyze learning patterns, train machine learning models, and generate personalized study habit recommendations.
+### 🔹 Recommendation_Engine.ipynb
 
-Dataset Components
+* Loads trained model
+* Predicts student cluster
+* Generates study recommendations
 
-Student Profile Data:
-Contains basic student-related information required for analysis and identification within the system.
+### 🔹 Study_Track.ipynb (MAIN FILE)
 
-Study Log Data:
-Records student study activity, including study duration, frequency, and time-based learning behavior.
+* End-to-end execution notebook
+* Integrates data, model, and recommendation logic
+* Produces final personalized study plan
 
-Performance Metrics:
-Includes academic performance indicators used to correlate study habits with learning outcomes.
+👉 **This is the notebook to run for demo, review, and viva**
 
-Processed & Clustered Data:
-Derived datasets generated after preprocessing and machine learning–based clustering, used for recommendation generation and analysis.
+---
 
-⚙️ System Workflow
+## 🛠️ Technologies Used
 
-Student study activity and performance data are collected from datasets.
+* **Python**
+* **Pandas & NumPy** – Data processing
+* **Scikit-learn** – Machine learning (Clustering)
+* **Matplotlib / Seaborn** – Visualization
+* **Jupyter Notebook** – Development environment
+* **SQLite** – Database storage
 
-Data preprocessing and feature engineering are performed.
+---
 
-Students are grouped using KMeans clustering based on behavioral patterns.
+## ▶️ How to Run the Project
 
-Trained models and scalers are saved for reuse.
+### ✅ Option 1: Run on Google Colab (Recommended)
 
-Personalized study habit recommendations are generated.
+1. Open [https://colab.research.google.com](https://colab.research.google.com)
+2. Upload `Study_Track.ipynb`
+3. Upload `data/` and `models/` folders if prompted
+4. Click **Runtime → Run all**
 
-Insights are visualized and presented through notebooks or a simple interface.
+---
 
-## 📈 Machine Learning Approach
+### ✅ Option 2: Run Locally
 
-Clustering Algorithm: KMeans
+#### Step 1: Install Dependencies
 
-Purpose: Group students with similar study behavior
+```bash
+pip install -r requirements.txt
+```
 
-Features Used: Study duration, consistency, performance indicators
+#### Step 2: Launch Jupyter Notebook
 
-Output: Cluster labels used to generate personalized recommendations
+```bash
+jupyter notebook
+```
 
-The model is trained once and persisted using serialized files for efficient reuse without retraining.
+#### Step 3: Open and Run
 
-## 🧪 Evaluation and Analysis
+* Open `notebooks/Study_Track.ipynb`
+* Click **Run → Run All Cells**
 
-Cluster distributions are analyzed to understand student learning patterns.
+---
 
-Visualizations are used to interpret study behavior and performance trends.
+## 📊 Sample Output
 
-Recommendation logic is validated using sample student profiles.
+* Student study habit classification
+* Personalized subject-wise study plan
+* Time management suggestions
+* Improvement recommendations
 
-## 🔐 Data Privacy & Ethics
+---
 
-All data used in this project is anonymized.
+## 🗣️ Viva / Presentation Explanation
 
-No real personal or sensitive student information is exposed.
+> “Study-Track is an AI-based student study habit recommender system that analyzes student data, groups students using clustering, and generates personalized study plans to improve learning efficiency and academic performance.”
 
-The project is intended solely for academic and learning purposes.
+---
+
+## 🚀 Future Enhancements
+
+* Web application using **Streamlit**
+* Real-time student input form
+* Deep learning-based recommendation model
+* Mobile app integration
+* Performance tracking dashboard
+
+---
 
 ## 👥 Team Members
 
-- **[Astle Joe A S](https://github.com/astlejoe789)** 
-- **[Megharaj Koli](https://github.com/MegharajKoli)** 
-- **[Ravilla Monika](https://github.com/RavillaMonika)** 
-- **Akash A**
-- **[Venusri](https://github.com/Venu504)** 
+* **Astle Joe A S** – Project Lead
+* *(Add other members if applicable)*
 
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+✨ *Designed as an academic AI/ML project with practical impact on student learning.*
