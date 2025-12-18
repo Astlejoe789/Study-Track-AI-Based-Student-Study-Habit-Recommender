@@ -82,19 +82,19 @@ Study-Track-AI-Based-Student-Study-Habit-Recommender/
 
 ##  Notebook Description
 
-### 🔹 Clustering.ipynb
+###  Clustering.ipynb
 
 * Trains a clustering model on student data
 * Groups students based on study habits
 * Saves trained model and scaler
 
-### 🔹 Recommendation_Engine.ipynb
+###  Recommendation_Engine.ipynb
 
 * Loads trained model
 * Predicts student cluster
 * Generates study recommendations
 
-### 🔹 Study_Track.ipynb (MAIN FILE)
+###  Study_Track.ipynb (MAIN FILE)
 
 * End-to-end execution notebook
 * Integrates data, model, and recommendation logic
