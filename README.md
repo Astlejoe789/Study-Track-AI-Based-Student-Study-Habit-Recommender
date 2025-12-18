@@ -104,7 +104,7 @@ Study-Track-AI-Based-Student-Study-Habit-Recommender/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**
 * **Pandas & NumPy** – Data processing
@@ -183,10 +183,10 @@ jupyter notebook
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-✨ *Designed as an academic AI/ML project with practical impact on student learning.*
+ *Designed as an academic AI/ML project with practical impact on student learning.*
