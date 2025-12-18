@@ -174,12 +174,16 @@ jupyter notebook
 
 ---
 
-##  Team Members
-- **[Astle Joe A S](https://github.com/astlejoe789)** 
-- **[Megharaj Koli](https://github.com/MegharajKoli)** 
-- **[Ravilla Monika](https://github.com/RavillaMonika)** 
-- **[Akash A](https://github.com/Akash-2006-07-03)**
-- **[Venusri](https://github.com/Venu504)** 
+## Team Members & Contributions
+
+| Team Member       | GitHub Profile | Role                 | Key Contributions |
+|-------------------|---------------|----------------------|-------------------|
+| **Astle Joe A S** | [astlejoe789](https://github.com/astlejoe789) | AI Engineer | K-Means clustering model development, student behavior analysis |
+| **Megharaj Koli** | [MegharajKoli](https://github.com/MegharajKoli) | Backend Developer | FastAPI server, SQLite database, user authentication |
+| **Ravilla Monika** | [RavillaMonika](https://github.com/RavillaMonika) | ML Logic Specialist | Recommendation engine logic, mapping clusters to insights |
+| **Akash A** | [Akash-2006-07-03](https://github.com/Akash-2006-07-03) | Frontend Developer | Streamlit UI, interactive dashboard, data visualizations |
+| **Venusri** | [Venu504](https://github.com/Venu504) | Data Engineer | Data collection, preprocessing, feature engineering |
+
 
 ---
 
